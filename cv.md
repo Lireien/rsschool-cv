@@ -8,3 +8,7 @@
 * Telegram: [@Vel_Ana](https://t.me/Vel_Ana)
 * LinkedIn: [Anastasiya Vel'yaninova](https://www.linkedin.com/in/anastasiya-vel-yaninova-a94659202/)
 **************************
+## About me:
+I came from totally different fields of activity: veterinary and service sector \(manager in barbershop).
+And what skills did I carry with me from these activities? Communicative and time-management, records management and conflict resolving. 
+But why am I here now? Because of a strong desire to explore direction with a limitless opportunity to learn and develop. I choose frontend because I truly enjoy when I can instantly see the result of my work. And, yes, I know that it sounds trivial, but it's a fact.
