@@ -60,6 +60,6 @@ I have no experience, as a specialist, but here is graduation project from "Teac
 
 * "TeachMeSkills" programming school, Front-End Development
 
-* Udemy /(in progress...) [JavaScript+React](https://www.udemy.com/course/javascript_full/)
+* Udemy \(in progress...) [JavaScript+React](https://www.udemy.com/course/javascript_full/)
 
 
