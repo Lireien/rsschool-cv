@@ -9,6 +9,7 @@
 * GitHub: [Lireien](https://github.com/Lireien)
 * Telegram: [@Vel_Ana](https://t.me/Vel_Ana)
 * LinkedIn: [Anastasiya Vel'yaninova](https://www.linkedin.com/in/anastasiya-vel-yaninova-a94659202/)
+* Discord: VelAna#9474
 
 **************************
 ## About me:
@@ -29,6 +30,8 @@ So I started my way from programming school "TeachMeSkills" and successfully fin
 * React \(Redux)
 * VSCode, WebStorm
 
+***************************
+
 ## Code example:
 
 * The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be \{'a': 2, 'b': 1}.
@@ -48,25 +51,32 @@ function count (string) {
    return result;
 }
 ```
+
+***************************
+
 ## Work experience:
 
 I have no experience, as a specialist, but here is graduation project from "TeachMeSkills" via link below:
 
 [Array_Methods_with_React](https://lireien.github.io/React-methods/)
 
+***************************
+
 ## Education
 
-* Vitebsk State Academy of Veterinary Medicine, veterinarian pharmacist
+* **Vitebsk State Academy of Veterinary Medicine**, veterinarian pharmacist
 
-* "TeachMeSkills" programming school, Front-End Development
+* **"TeachMeSkills"** programming school, Front-End Development
 
-* Udemy \(in progress...) [JavaScript+React](https://www.udemy.com/course/javascript_full/)
+* **Udemy** \(in progress...) [JavaScript+React](https://www.udemy.com/course/javascript_full/)
+
+***************************
 
 ## Languages
 
-* Russian \- native 
+* **Russian** \- native 
 
-* English \- B2+ according to [www.efset.org](https://www.efset.org/ru/quick-check/)
+* **English** \- B2+ according to [www.efset.org](https://www.efset.org/ru/quick-check/)
 
  ![english-quick-test](/images/EFSET-quick-check.png)
 
