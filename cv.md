@@ -62,4 +62,11 @@ I have no experience, as a specialist, but here is graduation project from "Teac
 
 * Udemy \(in progress...) [JavaScript+React](https://www.udemy.com/course/javascript_full/)
 
+## Languages
+
+* English \- B2+ according to [www.efset.org](https://www.efset.org/ru/quick-check/)
+
+ ![english-quick-test](/images/EFSET-quick-check.png)
+
+* Russian \- native 
 
