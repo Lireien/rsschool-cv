@@ -51,5 +51,15 @@ function count (string) {
 ## Work experience:
 
 I have no experience, as a specialist, but here is graduation project from "TeachMeSkills" via link below:
+
 [Array_Methods_with_React](https://lireien.github.io/React-methods/)
+
+## Education
+
+* Vitebsk State Academy of Veterinary Medicine, veterinarian pharmacist
+
+* "TeachMeSkills" programming school, Front-End Development
+
+* Udemy /(in progress...) [JavaScript+React](https://www.udemy.com/course/javascript_full/)
+
 
