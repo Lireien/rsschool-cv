@@ -10,5 +10,9 @@
 **************************
 ## About me:
 I came from totally different fields of activity: veterinary and service sector \(manager in barbershop).
+
 And what skills did I carry with me from these activities? Communicative and time-management, records management and conflict resolving. 
+
 But why am I here now? Because of a strong desire to explore direction with a limitless opportunity to learn and develop. I choose frontend because I truly enjoy when I can instantly see the result of my work. And, yes, I know that it sounds trivial, but it's a fact.
+
+So I started my way from programming school "TeachMeSkills" and successfully finished it. The way wasn't easy, but I think it's worth my time and efforts, because a new world open to me, is so exciting!
