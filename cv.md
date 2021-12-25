@@ -1,5 +1,7 @@
 # Anastasiya Vel'yaninova
+
 ************************
+
 ## Contact information:
 * Location: Vitebsk, Belarus
 * Phone: +375-29-891-80-08
@@ -7,6 +9,7 @@
 * GitHub: [Lireien](https://github.com/Lireien)
 * Telegram: [@Vel_Ana](https://t.me/Vel_Ana)
 * LinkedIn: [Anastasiya Vel'yaninova](https://www.linkedin.com/in/anastasiya-vel-yaninova-a94659202/)
+
 **************************
 ## About me:
 I came from totally different fields of activity: veterinary and service sector \(manager in barbershop).
@@ -18,6 +21,7 @@ But why am I here now? Because of a strong desire to explore direction with a li
 So I started my way from programming school "TeachMeSkills" and successfully finished it. The way wasn't easy, but I think it's worth my time and efforts, because a new world open to me, is so exciting!
 
 ***************************
+
 ## Skills:
 * HTML5, CSS3 \(Sass, Bootstrap, BEM)
 * JavaScript\(Fundamentals, ES6+, DOM, OOP)
@@ -27,9 +31,9 @@ So I started my way from programming school "TeachMeSkills" and successfully fin
 
 ## Code example:
 
-*The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be \{'a': 2, 'b': 1}.
+* The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be \{'a': 2, 'b': 1}.
 
-What if the string is empty? Then the result should be empty object literal, \{}.*
+What if the string is empty? Then the result should be empty object literal, \{}. *
 
 ```
 function count (string) {  
