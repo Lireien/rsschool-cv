@@ -48,3 +48,8 @@ function count (string) {
    return result;
 }
 ```
+## Work experience:
+
+I have no experience, as a specialist, but here is graduation project from "TeachMeSkills" via link below:
+[Array_Methods_with_React](https://lireien.github.io/React-methods/)
+
