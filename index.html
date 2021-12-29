@@ -12,27 +12,42 @@
       <header>
         <div class="container">
           <nav class="navigation">
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#contacts">Contacts</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#skills">Skills</a></li>              
-              <li><a href="#experience">Experience</a></li>
-              
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#home" class="navigation__link">Home</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#contacts" class="navigation__link">Contacts</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#about" class="navigation__link">About</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#education" class="navigation__link">Education</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#skills" class="navigation__link">Skills</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#code" class="navigation__link">Code Example</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#experience" class="navigation__link">Experience</a>
+              </li>
             </ul>
           </nav>
           <div class="header__layout--left">
-            <div class="header__image-wrapper">
+            <div class="header-image__wrapper">
               <img
-                src="./assets/img/personal-photo.jpg"
+                src="./assets/img/personal-photo.png"
                 alt="Anastasiya Vel'yaninova"
+                class="header-image__picture"
               />
             </div>
           </div>
           <div class="header__layout--right">
             <div class="header__content">
-              <p class="header__greetings">Hi everyone! I'm </p>
+              <p class="header__greetings">Hi everyone! I'm</p>
               <h1 class="header__title">Anastasiya Vel'yaninova</h1>
               <h2 class="header__subtitle">
                 Junior/trainee Front End Developer
@@ -45,38 +60,54 @@
         <div class="container">
           <section class="contacts" id="contacts">
             <div class="contacts__layout--left">
-              <h3 class="contacts__title">Contacts</h3>
+              <h3 class="cv-title">Contacts</h3>
             </div>
             <div class="contacts__layout--right">
               <ul class="contacts-list">
                 <li class="contacts-item">
                   <div class="contacts-item__phone"></div>
                   <div class="contacts-item__content">
-                    <a href="tel: +375 (29) 891 80 08" class="contacts-item__link"> + 375 (29) 891-80-08</a>
+                    <a href="tel:+375(29)8918008" class="contacts-item__link">
+                      + 375 (29) 891-80-08</a
+                    >
                   </div>
                 </li>
                 <li class="contacts-item">
                   <div class="contacts-item__email"></div>
                   <div class="contacts-item__content">
-                    <a href="mailto:velana.mb@gmail.com" class="contacts-item__link">velana.mb@gmail.com</a>
+                    <a
+                      href="mailto:velana.mb@gmail.com"
+                      class="contacts-item__link"
+                      >velana.mb@gmail.com</a
+                    >
                   </div>
                 </li>
                 <li class="contacts-item">
                   <div class="contacts-item__github"></div>
                   <div class="contacts-item__content">
-                    <a href="https://github.com/Lireien" class="contacts-item__link">gitgub.com/Lireien</a>
+                    <a
+                      href="https://github.com/Lireien"
+                      class="contacts-item__link"
+                      >gitgub.com/Lireien</a
+                    >
                   </div>
                 </li>
                 <li class="contacts-item">
                   <div class="contacts-item__telegram"></div>
                   <div class="contacts-item__content">
-                    <a href="https://t.me/Vel_Ana" class="contacts-item__link">t.me/Anastasiya Vel'yaninova</a>
+                    <a href="https://t.me/Vel_Ana" class="contacts-item__link"
+                      >t.me/Anastasiya Vel'yaninova</a
+                    >
                   </div>
                 </li>
                 <li class="contacts-item">
                   <div class="contacts-item__linkedin"></div>
                   <div class="contacts-item__content">
-                    <a href="https://www.linkedin.com/in/anastasiya-vel-yaninova-a94659202/" class="contacts-item__link">linkedin.com/Anastasiya Vel'yaninova</a>
+                    <a
+                      href="https://www.linkedin.com/in/anastasiya-vel-yaninova-a94659202/"
+                      class="contacts-item__link"
+                      >linkedin.com/Anastasiya Vel'yaninova</a
+                    >
                   </div>
                 </li>
                 <li class="contacts-item">
@@ -96,22 +127,217 @@
           </section>
           <section class="about" id="about">
             <div class="about__layout--left">
-              <h3 class="about__title">About me</h3>
+              <h3 class="cv-title">About me</h3>
             </div>
             <div class="about__layout--right">
-              <p class="about__content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat beatae itaque amet omnis, dolores illo delectus rerum atque earum. Quisquam tempore a asperiores blanditiis ut molestiae aperiam quis sequi placeat!
-              Praesentium doloremque eos debitis possimus quos impedit vero sit et in, provident eligendi facilis similique minima assumenda iusto. Nam sed at debitis accusantium tempore vero dolor optio doloremque repellat adipisci?
-              Quibusdam, cum! Dolorem, eos tenetur? Voluptatem corporis dolor dicta neque assumenda minus similique non! Voluptas id eos corporis cumque fuga, minus saepe atque accusamus odio aliquam ullam iste soluta recusandae.
+              <p class="about__content">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+                beatae itaque amet omnis, dolores illo delectus rerum atque
+                earum. Quisquam tempore a asperiores blanditiis ut molestiae
+                aperiam quis sequi placeat! Praesentium doloremque eos debitis
+                possimus quos impedit vero sit et in, provident eligendi facilis
+                similique minima assumenda iusto. Nam sed at debitis accusantium
+                tempore vero dolor optio doloremque repellat adipisci?
+                Quibusdam, cum! Dolorem, eos tenetur? Voluptatem corporis dolor
+                dicta neque assumenda minus similique non! Voluptas id eos
+                corporis cumque fuga, minus saepe atque accusamus odio aliquam
+                ullam iste soluta recusandae.
               </p>
             </div>
           </section>
-          <section class="skills">
-
+          <section class="education" id="education">
+            <div class="education__layout--left">
+              <h3 class="cv-title">Education</h3>
+            </div>
+            <div class="education__layout--right">
+              <div class="education-block">
+                <p class="education-block__period">2009-2014</p>
+                <p class="education-block__source">
+                  Vitebsk State Academy of Veterinary Medicine
+                </p>
+                <p class="education-block__description">
+                  Specialization: veterinarian pharmacist
+                </p>
+              </div>
+              <div class="education-block">
+                <p class="education-block__period">21.12.20 - 27.07.21</p>
+                <p class="education-block__source">
+                  Coding School TeachMeSkills
+                </p>
+                <p class="education-block__description">
+                  Course: Front End - developer
+                </p>
+              </div>
+              <div class="education-block">
+                <p class="education-block__source">Other courses:</p>
+                <ul class="education-block__courses-list">
+                  <li class="education-block__courses-item">
+                    <a href="https://www.udemy.com/course/javascript_full/"
+                      >Udemy</a
+                    >
+                  </li>
+                  <li class="education-block__courses-item">
+                    <a href="https://rs.school/js-stage0/">RS School</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="skills" id="skills">
+            <div class="skills__wrapper">
+              <div class="skills__layout--left">
+                <h3 class="cv-title">Skills</h3>
+              </div>
+              <div class="skills__layout--right">
+                <div class="skill-block">
+                  <h4 class="skill-title">Html5</h4>
+                  <div class="skill-progress blue stripes">
+                    <span class="skill-bar" style="width: 40%"></span>
+                  </div>
+                </div>
+                <div class="skill-block">
+                  <h4 class="skill-title">Css3</h4>
+                  <div class="skill-progress blue stripes">
+                    <span class="skill-bar" style="width: 40%"></span>
+                  </div>
+                </div>
+                <div class="skill-block">
+                  <h4 class="skill-title">JavaScript</h4>
+                  <div class="skill-progress blue stripes">
+                    <span class="skill-bar" style="width: 40%"></span>
+                  </div>
+                </div>
+                <div class="skill-block">
+                  <h4 class="skill-title">React</h4>
+                  <div class="skill-progress blue stripes">
+                    <span class="skill-bar" style="width: 40%"></span>
+                  </div>
+                </div>
+                <div class="skill-block">
+                  <h4 class="skill-title">Git/GitHub</h4>
+                  <div class="skill-progress blue stripes">
+                    <span class="skill-bar" style="width: 40%"></span>
+                  </div>
+                </div>
+                <div class="skill-block">
+                  <h4 class="skill-title">IDE(VSCode, Webstorm)</h4>
+                  <div class="skill-progress blue stripes">
+                    <span class="skill-bar" style="width: 40%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="languages__wrapper">
+              <div class="languages__layout--left">
+                <h3 class="cv-title">Languages</h3>
+              </div>
+              <div class="languages__layout--right">
+                <div class="language-block">
+                  <h4 class="language-title">English</h4>
+                  <p class="language-sutitle">
+                    B2+ according to <a href="www.efset.org">efset.org</a>
+                  </p>
+                  <img
+                    src="./assets/img/efset-quick-check.png"
+                    alt="english-level"
+                    class="language__img"
+                  />
+                </div>
+                <div class="language-block">
+                  <h4 class="language-title">Russian</h4>
+                  <p class="language-subtitle">Native</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="code-example" id="code">
+            <div class="code-example__layout--left">
+              <h3 class="cv-title">Code Example</h3>
+              <p class="code-example__description"></p>
+            </div>
+            <div class="code-example__layout--right">
+              <p class="code-example__desc">
+                The main idea is to count all the occurring characters in a
+                string. If you have a string like aba, then the result should be
+                {'a': 2, 'b': 1}. What if the string is empty? Then the result
+                should be empty object literal, {}.
+              </p>
+              <pre><code class="code-example__snippet">                
+                  function count (string) {
+                  let result = {};
+                  for (let i = 0; i &lt; string.length; i++) { 
+                    if(result.hasOwnProperty(string[i])) {
+                      result [string[i]] += 1; 
+                    } else { 
+                      result [string[i]] = 1;
+                    } 
+                  }
+                  return result; 
+                }</code
+              ></pre>
+            </div>
+          </section>
+          <section class="experience" id="experience">
+            <div class="experience__layout--left">
+              <h3 class="cv-title">Work Experience</h3>
+            </div>
+            <div class="experience__layout--right">
+              <div class="experience-block">
+                <p class="experience-block__period">21.12.2020 - 27.07.2021</p>
+                <p class="experience-block__place">
+                  Coding School TeachMeSkills, student
+                </p>
+                <p class="experience-block__description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellat numquam laudantium laboriosam quos natus dolorem
+                  aliquam. Voluptatibus adipisci quidem itaque, id dolorum
+                  officia, quasi incidunt maxime sed maiores aut provident? Est
+                  nostrum animi rem aliquid ea repudiandae alias, esse corrupti
+                  quo soluta veritatis molestiae, obcaecati, sequi enim quod!
+                  Quibusdam eligendi odio sequi atque recusandae. Mollitia rem
+                  voluptatum illum nemo quam.
+                </p>
+              </div>
+              <div class="experience-block">
+                <p class="experience-block__period">01.12.2018 - 30.11.2020</p>
+                <p class="experience-block__place">Barbershop, manager</p>
+                <p class="experience-block__description">
+                  I learned how to solve conflicts between employees, mastered
+                  time-management of a working group, regulated working schedule
+                  for more than 10 persons, organized holidays and events for
+                  staff and customers.
+                </p>
+              </div>
+              <div class="experience-block">
+                <p class="experience-block__period">01.10.2014 - 30.11.2018</p>
+                <p class="experience-block__place">
+                  Veterinarian pharmacy, consultant
+                </p>
+                <p class="experience-block__description">
+                  The most important skill that I got during this years is a
+                  communicative skill. I questioned each customer for necessary
+                  information, patiently listened to their answers, and found
+                  individual solutions for them. I’ve managed specialists in the
+                  pharmacy entrusted to me and trained specialists of other
+                  pharmacies.
+                </p>
+              </div>
+            </div>
           </section>
         </div>
       </main>
       <footer>
-        <div class="container"></div>
+        <div class="container">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="https://github.com/Lireien">GitHub</a>
+            </li>
+            <li class="footer-item">2022</li>
+            <li class="footer-item">
+              <a href="https://rs.school/js-stage0/">Rsschool</a>
+            </li>
+          </ul>
+        </div>
       </footer>
     </div>
   </body>

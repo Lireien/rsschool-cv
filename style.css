@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #cce2e2;
 }
 
 body {
@@ -15,14 +16,19 @@ body {
   justify-content: space-between;
 }
 
+.wrapper {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
 header .header__layout--left .header__image-wrapper img {
-  width: 170px;
-  height: 230px;
+  width: 250px;
   object-fit: cover;
-  border-radius: 20%;
+  border-radius: 45%;
 }
