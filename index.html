@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="header">
         <div class="container">
           <nav class="navigation">
             <ul class="navigation__list">
@@ -36,22 +36,24 @@
               </li>
             </ul>
           </nav>
-          <div class="header__layout--left">
-            <div class="header-image__wrapper">
-              <img
-                src="./assets/img/personal-photo.png"
-                alt="Anastasiya Vel'yaninova"
-                class="header-image__picture"
-              />
+          <div class="header-content--inner">
+            <div class="header__layout--left">
+              <div class="header-image__wrapper">
+                <img
+                  src="./assets/img/personal-photo.png"
+                  alt="Anastasiya Vel'yaninova"
+                  class="header-image__picture"
+                />
+              </div>
             </div>
-          </div>
-          <div class="header__layout--right">
-            <div class="header__content">
-              <p class="header__greetings">Hi everyone! I'm</p>
-              <h1 class="header__title">Anastasiya Vel'yaninova</h1>
-              <h2 class="header__subtitle">
-                Junior/trainee Front End Developer
-              </h2>
+            <div class="header__layout--right">
+              <div class="header__content">
+                <p class="header__greetings">Hi everyone! I'm</p>
+                <h1 class="header__title">Anastasiya Vel'yaninova</h1>
+                <h2 class="header__subtitle">
+                  Junior/trainee Front End Developer
+                </h2>
+              </div>
             </div>
           </div>
         </div>
@@ -65,7 +67,7 @@
             <div class="contacts__layout--right">
               <ul class="contacts-list">
                 <li class="contacts-item">
-                  <div class="contacts-item__phone"></div>
+                  <div class="contacts-image contacts-image__phone"></div>
                   <div class="contacts-item__content">
                     <a href="tel:+375(29)8918008" class="contacts-item__link">
                       + 375 (29) 891-80-08</a
@@ -73,7 +75,7 @@
                   </div>
                 </li>
                 <li class="contacts-item">
-                  <div class="contacts-item__email"></div>
+                  <div class="contacts-image contacts-image__email"></div>
                   <div class="contacts-item__content">
                     <a
                       href="mailto:velana.mb@gmail.com"
@@ -83,7 +85,7 @@
                   </div>
                 </li>
                 <li class="contacts-item">
-                  <div class="contacts-item__github"></div>
+                  <div class="contacts-image contacts-image__github"></div>
                   <div class="contacts-item__content">
                     <a
                       href="https://github.com/Lireien"
@@ -93,7 +95,7 @@
                   </div>
                 </li>
                 <li class="contacts-item">
-                  <div class="contacts-item__telegram"></div>
+                  <div class="contacts-image contacts-image__telegram"></div>
                   <div class="contacts-item__content">
                     <a href="https://t.me/Vel_Ana" class="contacts-item__link"
                       >t.me/Anastasiya Vel'yaninova</a
@@ -101,7 +103,7 @@
                   </div>
                 </li>
                 <li class="contacts-item">
-                  <div class="contacts-item__linkedin"></div>
+                  <div class="contacts-image contacts-image__linkedin"></div>
                   <div class="contacts-item__content">
                     <a
                       href="https://www.linkedin.com/in/anastasiya-vel-yaninova-a94659202/"
@@ -111,13 +113,13 @@
                   </div>
                 </li>
                 <li class="contacts-item">
-                  <div class="contacts-item__discord"></div>
+                  <div class="contacts-image contacts-image__discord"></div>
                   <div class="contacts-item__content">
                     <p>VelAna#9474</p>
                   </div>
                 </li>
                 <li class="contacts-item">
-                  <div class="contacts-item__location"></div>
+                  <div class="contacts-image contacts-image__location"></div>
                   <div class="contacts-item__content">
                     <p>Belarus, Vitebsk</p>
                   </div>
@@ -131,17 +133,29 @@
             </div>
             <div class="about__layout--right">
               <p class="about__content">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-                beatae itaque amet omnis, dolores illo delectus rerum atque
-                earum. Quisquam tempore a asperiores blanditiis ut molestiae
-                aperiam quis sequi placeat! Praesentium doloremque eos debitis
-                possimus quos impedit vero sit et in, provident eligendi facilis
-                similique minima assumenda iusto. Nam sed at debitis accusantium
-                tempore vero dolor optio doloremque repellat adipisci?
-                Quibusdam, cum! Dolorem, eos tenetur? Voluptatem corporis dolor
-                dicta neque assumenda minus similique non! Voluptas id eos
-                corporis cumque fuga, minus saepe atque accusamus odio aliquam
-                ullam iste soluta recusandae.
+                I came from totally different fields of activity: veterinary and
+                service sector \(manager in barbershop). But why am I here now?
+              </p>
+
+              <p class="about__content">
+                Because of a strong desire to explore direction with a limitless
+                opportunity to learn and develop. I choose frontend because I
+                truly enjoy when I can instantly see the result of my work. And,
+                yes, I know that it sounds trivial, but it's a fact.
+              </p>
+
+              <p class="about__content">
+                So I started my way from programming school "TeachMeSkills" and
+                successfully finished it. The way wasn't easy, but I think it's
+                worth my time and efforts, because a new world open to me, is so
+                exciting!
+              </p>
+              <p class="about__content">
+                I’m concentrated, hardworking, responsible, attentive to
+                details, meticulous person, with ability to listen and to hear.
+                I’m passionate with piano playing, music, dogs, education and
+                vibrant, enthusiastic people. I’ve never stigmatize mistakes and
+                I’m sure it’s not a shame to ask, if you don’t know
               </p>
             </div>
           </section>
@@ -332,7 +346,9 @@
             <li class="footer-item">
               <a href="https://github.com/Lireien">GitHub</a>
             </li>
-            <li class="footer-item">2022</li>
+            <li class="footer-item">
+              2022 &#169; by Anastasiya Vel'yaninova &#9829;
+            </li>
             <li class="footer-item">
               <a href="https://rs.school/js-stage0/">Rsschool</a>
             </li>
