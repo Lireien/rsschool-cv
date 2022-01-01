@@ -10,6 +10,7 @@
   --main-color: #1f2735;
   --alt-color: #f1ce9d;
   --text-color: #9a9a9c;
+  --alt-text-color: #cea66e;
   --links-color: #c3cbd3d2;
 }
 
@@ -163,7 +164,7 @@ body {
   content: '';
   position: absolute;
   top: 0;
-  width: calc(100% - 4rem);
+  width: calc(100% - 3rem);
   height: 3px;
   background-color: var(--alt-color);
 }
@@ -238,7 +239,7 @@ body {
   content: '';
   position: absolute;
   top: 0;
-  width: calc(100% - 4rem);
+  width: calc(100% - 3rem);
   height: 3px;
   background-color: var(--alt-color);
 }
@@ -273,7 +274,7 @@ body {
   content: '';
   position: absolute;
   top: 0;
-  width: calc(100% - 4rem);
+  width: calc(100% - 3rem);
   height: 3px;
   background-color: var(--alt-color);
 }
@@ -286,4 +287,50 @@ body {
 .education__layout--right {
   width: 80%;
   padding: 20px;
+}
+.education-block {
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+}
+.education-block-main::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  height: 1px;
+  background-color: var(--alt-color);
+}
+.education-block__period {
+  padding: 10px;
+  color: var(--alt-text-color);
+  font-size: 1.5rem;
+}
+.education-block__source {
+  padding: 10px;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-style: italic;
+}
+.education-block__description {
+  padding: 10px;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+.education-block__courses-list {
+  display: flex;
+}
+.education-block__courses-item {
+  padding: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.courses-link {
+  width: 40%;
+  color: var(--links-color);
+  font-size: 1rem;
+  text-decoration: none;
 }
