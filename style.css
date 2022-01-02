@@ -482,3 +482,46 @@ body {
   display: block;
   width: 100%;
 }
+
+/*Code style*/
+
+.code-example {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 30px 10px;
+}
+.code-example::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: calc(100% - 3rem);
+  height: 3px;
+  background-color: var(--alt-color);
+}
+.code-example__layout--left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-example__description {
+  color: var(--text-color);
+}
+.code-example__layout--right {
+  width: 80%;
+  padding: 20px;
+}
+.code-example__desc {
+  padding: 10px;
+  color: var(--text-color);
+}
+.code-example__snippet {
+  font-size: 18px;
+  color: var(--text-color)
+}
