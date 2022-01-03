@@ -1,2 +1,5 @@
-https://Lireien.github.io/rsschool-cv/cv
-https://Lireien.github.io/rsschool-cv/
+#rsschool-cv
+
+markup-CV is [here](https://Lireien.github.io/rsschool-cv/cv)
+
+website-CV is [here](https://Lireien.github.io/rsschool-cv/)
