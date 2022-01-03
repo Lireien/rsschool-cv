@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
     user-scalable=no,
     maximum-scale=1.0,
-    minimum-scale=1.0" />
+    minimum-scale=1.0"
+    />
     <title>Rsschool-cv-html</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -306,17 +309,17 @@
                 should be empty object literal, {}.
               </p>
               <pre><code class="code-example__snippet">                
-                  function count (string) {
-                  let result = {};
-                  for (let i = 0; i &lt; string.length; i++) { 
-                    if(result.hasOwnProperty(string[i])) {
-                      result [string[i]] += 1; 
-                    } else { 
-                      result [string[i]] = 1;
-                    } 
-                  }
-                  return result; 
-                }</code
+<span class="hl-blue">function</span> count <span class="hl-yellow">(</span>string<span class="hl-yellow">) {</span>
+  <span class="hl-blue">let</span> result= <span class="hl-purple">{}</span>;
+  <span class="hl-purple">for (</span><span class="hl-blue">let</span> i  = 0; i &lt; string.length; i++<span class="hl-purple">) { 
+    if</span>(result.hasOwnProperty<span class="hl-yellow">(</span>string<span class="hl-purple">[</span>i<span class="hl-purple">]</span><span class="hl-yellow">)</span>) {
+  result<span class="hl-yellow">[</span> string<span class="hl-purple">[</span>i<span class="hl-purple">]</span><span class="hl-yellow">]</span> += 1; 
+    } <span class="hl-purple">else</span> { 
+      result<span class="hl-yellow">[</span>string<span class="hl-purple">[</span>i<span class="hl-purple">]</span><span class="hl-yellow">]</span> = 1;
+    }<span class="hl-purple">
+  }
+    return</span> result; 
+<span class="hl-yellow">}</span></code
               ></pre>
             </div>
           </section>
